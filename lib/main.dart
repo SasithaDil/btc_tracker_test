@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'BITCOIN TRACKER',
       theme:
-          ThemeData.dark().copyWith(scaffoldBackgroundColor: Color(0xFF171923)),
+          ThemeData.dark().copyWith(scaffoldBackgroundColor: Color(0xFF274734)),
       home: PrintScreen(),
     );
   }
