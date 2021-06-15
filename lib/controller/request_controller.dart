@@ -3,15 +3,11 @@ import 'dart:convert';
 import 'package:flutter_config/flutter_config.dart';
 
 class RequestController {
-
-
   Future<dynamic> getCoinData() async {
     var api = FlutterConfig.get('API_KEY');
 
-
     http.Response response = await http.get(
-      Uri.parse(
-          'https://rest.coinapi.io/v1/exchangerate/BTC/USD?apikey=$api'),
+      Uri.parse('https://rest.coinapi.io/v1/exchangerate/BTC/USD?apikey=$api'),
     );
 
     if (response.statusCode == 200) {
