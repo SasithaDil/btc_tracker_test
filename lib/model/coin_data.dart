@@ -1,4 +1,4 @@
-
+// import 'package:btc_tracer_app/views/price_screen.dart';
 
 const List<String> currenciesList = [
   'AUD',
@@ -7,7 +7,7 @@ const List<String> currenciesList = [
   'CNY',
   'EUR',
   'GBP',
-  'HKD',
+  'LKR',
   'IDR',
   'ILS',
   'INR',
@@ -24,12 +24,10 @@ const List<String> currenciesList = [
   'ZAR'
 ];
 
-const List<String> cryptoList = [
-  'BTC',
-  'ETH',
-  'LTC',
-];
-
 class CoinData {
-
+  List<String> cryptoList = [
+    'BTC',
+    'ETH',
+    'LTC',
+  ];
 }
